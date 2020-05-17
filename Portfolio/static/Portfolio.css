@@ -1,0 +1,174 @@
+*{
+    outline: 1px; color: black;
+}
+.container{
+    width: auto;
+    height: auto;
+    background-color: gainsboro;
+}
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 16px;
+    border-bottom: 1px outset rgba(192, 192, 192, 0.5);
+    background: rgba(192, 192, 192, 0.9);
+    box-shadow: 0px 1px rgba(0, 0, 0, 0.3);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    
+}
+.navbar h1{
+
+    margin-top: -1%;
+    text-shadow: 2px 1px 2px #000;
+    font-size: 5em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar-li{
+    margin: auto;
+    border: 10px, black;
+    padding: 5%;
+}
+.navbar-anchor{
+    float: left;
+    text-align: center;
+    display: block;
+    border: 2em, blue;
+    display: inline-block;
+    
+}
+.navbar-anchor:hover{
+    background: rgba(255, 255, 255, 0.5);
+    color: #000;
+}
+h1{
+    min-height: 35px;
+    display: inline-block;
+    color: black;
+    font-size: 25px;
+    padding: 10px,30px,10px,10px;
+    margin-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+
+}
+h2{
+    min-height: 35px;
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    padding: 10px,10px,10px,10px;
+    margin-left: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.body{
+    min-height: 800px;
+    background-color: rgb(58, 10, 58);
+
+}
+
+
+#Selfie{
+    display: inline-block;
+    border: 5px solid gray;
+    width: 40%;
+    height: 440px;
+    margin: 20px;
+}
+.webpage{
+    border: 5px solid gray;
+    width: auto;
+    height: 200px;
+}
+.about{
+    min-height: 30%;
+    vertical-align: top;
+    width: 40%;
+    display: inline-block;
+    margin: 20px;
+    text-align: top;
+    background-color:whitesmoke;
+}
+.bottom{
+    font-size: 18px;
+}
+.top{
+    min-height: 20px;
+    width: 470px;
+    text-align: top;
+    background-color:gray;
+
+}
+.box1{
+    min-height: 450px;
+    width: 47%;
+    display: inline-block;
+    background-image: linear-gradient(to bottom right,rgb(163, 154, 163),rgb(110, 61, 110));
+    margin-left: 5px;
+    vertical-align: top;
+
+}
+.box1-1{
+    min-height: 35px;
+    width: 30%;
+    background-color: gray;
+    text-align: left;
+    font-size: 18px;
+    color: white;
+    
+    
+}
+
+p{
+    min-height: 200px;
+    width: 310px;
+    margin:0px;
+    font-size: 20px;
+}
+h3{
+    font-size:18px;
+    min-height: 35px;
+    width: 310x;
+    background-color: gray;
+    margin: 0px;
+}
+.tec{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+
+}
+.linke{
+    background-color:rgb(142, 224, 19);
+    border-radius: 5px;
+    margin-left: 100px;
+}
+
+.lin{
+    margin: center;
+    width: 20px;
+    height: 20px;
+}
+.linki{
+    vertical-align: top;
+
+}
+.footer{
+    text-align: center;
+}
