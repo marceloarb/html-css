@@ -1,0 +1,207 @@
+
+
+.container {
+    background-color: rgb(39, 36, 36);
+    
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+    .responsive {
+        max-width: 200px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 98%;
+    }
+}
+.responsive {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: 1px outset rgba(192, 192, 192, 0.5);
+    background: rgba(192, 192, 192, 0.9);
+    box-shadow: 0px 1px rgba(0, 0, 0, 0.3);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+h4{
+    display: inline;
+    text-shadow: 2px 1px 2px #000;
+    font-size: 3em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    width: 40%;
+    text-align: center;
+}
+.navbar-li{
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    padding: 1%;
+}
+.navbar-anchor{
+    text-align: center;
+    display: inline-block;
+    display: inline-block;
+    padding: 0.5em 0.5em;
+    background-color: rgb(109, 97, 76);
+    border-radius: 10%;
+    text-decoration: none;
+    color: black;
+    
+}
+.navbar-anchor:hover{
+    background: rgba(255, 255, 255, 0.5);
+    color: #000;
+}
+h1{
+    min-height: 35px;
+    display: inline-block;
+    color: black;
+    font-size: 25px;
+    padding: 10px,30px,10px,10px;
+    margin-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+
+}
+h2{
+    min-height: 35px;
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    padding: 10px,10px,10px,10px;
+    margin-left: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+
+#Selfie{
+    display: inline-block;
+    border: 5px solid gray;
+    max-width: 30%;
+    height: 440px;
+    margin: 20px;
+}
+.webpage{
+    border: 2px solid gray;
+    width: auto;
+    height: 200px;
+    object-fit: contain;
+    
+}
+.about{
+    min-height: 30%;
+    vertical-align: top;
+    width: 40%;
+    display: inline-block;
+    margin: 20px;
+    text-align: top;
+}
+.bottom{
+    display: inline;
+    text-shadow: 2px 1px 2px #000;
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.box1{
+    min-height: 460px;
+    display: inline-block;
+    text-align: center;
+    width: 32%;
+    background-image: linear-gradient(to bottom right,rgb(197, 193, 197),rgb(61, 58, 61));
+    margin-left: 5px;
+    order: 3;
+    margin: auto;
+    vertical-align: top;
+
+    
+    
+
+}
+.box1-1{
+    background-color: gray;
+    text-align: left;
+    color: white;
+    display: block;
+    text-shadow: 2px 1px 2px #000;
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.7);
+    justify-content: flex-end;
+    
+    
+}
+
+p{
+    margin:0px;
+    font-size: 20px;
+}
+h3{
+    font-size:18px;
+    min-height: 35px;
+    width: 310x;
+    background-color: gray;
+    margin: 0px;
+}
+.tec{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+
+}
+.linke{
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0.1em 0.1em;
+    background-color: darkgrey;
+    float: end;
+    color: black;
+}
+
+.lin{
+    margin: center;
+    width: 20px;
+    height: 20px;
+}
+.linki{
+    vertical-align: top;
+    font-size: 20px;
+    color: rgb(223, 215, 215);
+
+}
+.footer{
+    text-align: center;
+}
+h5{
+    font-size: 20px;
+    color: rgb(223, 215, 215);
+}
