@@ -1,0 +1,100 @@
+html, body {
+    height: 100%;
+}
+.box {
+    background-color:  rgba(192, 192, 192, 0.5);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+a:hover{
+    background: rgba(255, 255, 255, 0.5);
+    color: #000;
+}
+
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: 1px outset rgba(192, 192, 192, 0.5);
+    background: rgba(5, 5, 5, 0.9);
+    box-shadow: 0px 1px white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    display: inline;
+    text-shadow: 2px 1px 2px #000;
+    font-size: 3em;
+    color: rgba(187, 184, 184, 0.7);
+}
+p{
+    font-size: 1.5em;
+    text-align: center;
+    color: rgba(61, 54, 54, 0.555);
+}
+
+
+.navbar-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    width: 40%;
+    text-align: center;
+}
+.navbar-li{
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    padding: 1%;
+}
+.navbar-anchor{
+    text-align: center;
+    display: inline-block;
+    display: inline-block;
+    padding: 0.5em 0.5em;
+    background-color: rgb(109, 97, 76);
+    border-radius: 10%;
+    color: black;
+    text-decoration: none;
+    
+}
+h1{
+    min-height: 35px;
+    text-align: center;
+    color: gray;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+
+}
+.form{
+    
+    margin: auto;
+    justify-content: center;
+}
+input{
+    padding: .5%;
+    margin: .3%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-left: 35%;
+}
+textarea{
+    padding: .5%;
+    margin: .3%;
+    width: 30%;
+    margin-left: 35%;
+    min-height: 200px;
+    justify-content: center;
+}
