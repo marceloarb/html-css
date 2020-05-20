@@ -1,0 +1,89 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color:  rgba(192, 192, 192, 0.5);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0px 1px white;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    display: inline;
+    text-shadow: 2px 1px 2px #000;
+    font-size: 3em;
+    color: rgba(187, 184, 184, 0.7);
+}
+p{
+    font-size: 1.5em;
+    text-align: center;
+    color: rgba(61, 54, 54, 0.555);
+}
+
+
+.navbar-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    width: 40%;
+    text-align: center;
+}
+.navbar-li{
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    padding: 1%;
+}
+.navbar-anchor{
+    text-align: center;
+    display: inline-block;
+    display: inline-block;
+    padding: 0.5em 0.5em;
+    border-radius: 10%;
+    color: black;
+    text-decoration: none;
+    
+}
+h1{
+    min-height: 35px;
+    text-align: center;
+    color: gray;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+
+}
+a:hover{
+    background: rgba(255, 255, 255, 0.5);
+    color: #000;
+}
+.images{
+    min-height: 460px;
+    display: inline-block;
+    text-align: center;
+    width: 32%;
+    background-image: linear-gradient(to bottom right,rgb(197, 193, 197),rgb(61, 58, 61));
+    margin-left: 5px;
+    order: 3;
+    margin: auto;
+    vertical-align: top;
+
+    
+    
+
+}
